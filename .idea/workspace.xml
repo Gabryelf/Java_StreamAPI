@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d6fecfd-ac49-4a62-87a7-d4cb288966d5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/even_number/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/BalykCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Cheburek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/ChocolateBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Crisps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/DumplingsBerries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/DumplingsMeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/HealthyFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Notebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/OliveOil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Pen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/SemiFinishedFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Snack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Thing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/UMarket.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2aIt21ogRH84UPp7QfHOfGCc891" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.org.example.sem_1_streamAPI.even_number.Program">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sem_1_streamAPI.market.Program" />
+      <module name="Java_strim_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.sem_1_streamAPI.market.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.sem_1_streamAPI.even_number.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sem_1_streamAPI.even_number.Program" />
+      <module name="Java_strim_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.sem_1_streamAPI.even_number.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.org.example.sem_1_streamAPI.even_number.Program" />
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d6fecfd-ac49-4a62-87a7-d4cb288966d5" name="Changes" comment="" />
+      <created>1704017712599</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704017712599</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -19,6 +19,9 @@ public class Cart<T extends Food> {
     private final ArrayList<T> foodstuffs;
     private final UMarket market;
     private final Class<T> clazz;
+    public boolean fats;
+    public boolean carbohydrates;
+    public boolean proteins;
 
     //endregion
 
@@ -35,9 +38,71 @@ public class Cart<T extends Food> {
         foodstuffs = new ArrayList<>();
     }
 
+    public Cart(ArrayList<T> foodstuffs, UMarket market, Class<T> clazz, boolean fats, boolean carbohydrates, boolean proteins) {
+        this.foodstuffs = foodstuffs;
+        this.market = market;
+        this.clazz = clazz;
+        this.fats = fats;
+        this.carbohydrates = carbohydrates;
+        this.proteins = proteins;
+    }
+
     public void cardBalancing()
     {
-        boolean proteins = false;
+
+
+        proteins = foodstuffs.stream()
+                .filter(food -> !proteins && food.getProteins())
+                .peek(food -> proteins = true)
+                .count() > 0;
+
+       
+
+        fats = foodstuffs.stream()
+                .filter(food -> !fats && food.getFats())
+                .peek(food -> fats = true)
+                .count() > 0;
+
+        carbohydrates = foodstuffs.stream()
+                .filter(food -> !carbohydrates && food.getCarbohydrates())
+                .peek(food -> carbohydrates = true)
+                .count() > 0;
+
+        if (proteins && fats && carbohydrates) {
+            System.out.println("Корзина уже сбалансирована по БЖУ.");
+            return;
+        }
+
+        market.getThings(clazz).stream()
+                .filter(thing -> !proteins && thing.getProteins())
+                .peek(thing -> {
+                    proteins = true;
+                    foodstuffs.add(thing);
+                })
+                .count();
+
+        market.getThings(clazz).stream()
+                .filter(thing -> !fats && thing.getFats())
+                .peek(thing -> {
+                    fats = true;
+                    foodstuffs.add(thing);
+                })
+                .count();
+
+        market.getThings(clazz).stream()
+                .filter(thing -> !carbohydrates && thing.getCarbohydrates())
+                .peek(thing -> {
+                    carbohydrates = true;
+                    foodstuffs.add(thing);
+                })
+                .count();
+
+        if (proteins && fats && carbohydrates)
+            System.out.println("Корзина сбалансирована по БЖУ.");
+        else
+            System.out.println("Невозможно сбалансировать корзину по БЖУ.");
+
+        /* proteins = false;
         boolean fats = false;
         boolean carbohydrates = false;
 
@@ -85,7 +150,7 @@ public class Cart<T extends Food> {
         if (proteins && fats && carbohydrates)
             System.out.println("Корзина сбалансирована по БЖУ.");
         else
-            System.out.println("Невозможно сбалансировать корзину по БЖУ.");
+            System.out.println("Невозможно сбалансировать корзину по БЖУ.");*/
 
     }
 

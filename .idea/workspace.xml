@@ -4,33 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d6fecfd-ac49-4a62-87a7-d4cb288966d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/even_number/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/BalykCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Cheburek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/ChocolateBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Crisps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/DumplingsBerries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/DumplingsMeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/HealthyFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Notebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/OliveOil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Pen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/SemiFinishedFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Snack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Thing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/UMarket.java" afterDir="false" />
+    <list default="true" id="4d6fecfd-ac49-4a62-87a7-d4cb288966d5" name="Changes" comment="Start &amp; init first.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/UMarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/UMarket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.org.example.sem_1_streamAPI.even_number.Program">
+}</component>
+  <component name="RunManager" selected="Application.Program">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.sem_1_streamAPI.market.Program" />
       <module name="Java_strim_API" />
@@ -92,8 +69,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.sem_1_streamAPI.even_number.Program" />
         <item itemvalue="Application.Program" />
+        <item itemvalue="Application.org.example.sem_1_streamAPI.even_number.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +83,14 @@
       <option name="presentableId" value="Default" />
       <updated>1704017712599</updated>
     </task>
+    <task id="LOCAL-00001" summary="Start &amp; init first.">
+      <created>1704021983262</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704021983262</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start &amp; init first." />
+    <option name="LAST_COMMIT_MESSAGE" value="Start &amp; init first." />
   </component>
 </project>

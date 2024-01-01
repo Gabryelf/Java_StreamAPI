@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
-public class UMarket {
+public class  UMarket {
 
     private void initializeThings()
     {

@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d6fecfd-ac49-4a62-87a7-d4cb288966d5" name="Changes" comment="Start &amp; init first.">
+    <list default="true" id="4d6fecfd-ac49-4a62-87a7-d4cb288966d5" name="Changes" comment="Add second method card-balancing.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_2/Reflection_API/animal_reflection/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_2/Reflection_API/animal_reflection/BarkAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_2/Reflection_API/animal_reflection/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_2/Reflection_API/animal_reflection/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_2/Reflection_API/animal_reflection/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_2/Reflection_API/animal_reflection/MeowAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/UMarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sem_1_streamAPI/market/UMarket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -40,7 +45,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sem_2.Reflection_API.animal_reflection.Main" />
+      <module name="Java_strim_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.sem_2.Reflection_API.animal_reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.sem_1_streamAPI.market.Program" />
       <module name="Java_strim_API" />
@@ -69,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.org.example.sem_1_streamAPI.even_number.Program" />
       </list>
@@ -90,7 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704021983262</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Init second homework lesson.">
+      <created>1704107937648</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704107937648</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add second method card-balancing.">
+      <created>1705341955660</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705341955660</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +139,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start &amp; init first." />
-    <option name="LAST_COMMIT_MESSAGE" value="Start &amp; init first." />
+    <MESSAGE value="Init second homework lesson." />
+    <MESSAGE value="Add second method card-balancing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add second method card-balancing." />
   </component>
 </project>
